@@ -52,6 +52,7 @@
 }
 .videoSobre-video{
 	flex-grow: 1;
+	flex-shrink: 2;
 }
 
 /*parte mobile*/
@@ -86,5 +87,8 @@
 	}
 	.cabecalhoPrincipal-nav-link-app{
 		order:-1;
+	}
+	.videoSobre .container{
+		flex-direction: column;
 	}
 }
